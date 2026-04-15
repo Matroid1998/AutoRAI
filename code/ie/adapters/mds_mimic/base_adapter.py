@@ -36,31 +36,31 @@ logger = logging.getLogger(__name__)
 
 # Common section headers in MIMIC discharge summaries
 DISCHARGE_SECTION_PATTERNS = [
-    r"(?i)^(chief complaint|cc)\s*:",
-    r"(?i)^(history of present illness|hpi)\s*:",
-    r"(?i)^(past medical history|pmh|pmhx)\s*:",
-    r"(?i)^(past surgical history|psh)\s*:",
-    r"(?i)^(social history|sh)\s*:",
-    r"(?i)^(family history|fh|fhx)\s*:",
-    r"(?i)^(medications on admission|home medications|admission medications)\s*:",
-    r"(?i)^(allergies)\s*:",
-    r"(?i)^(physical exam|physical examination|pe)\s*:",
-    r"(?i)^(pertinent results|labs|laboratory)\s*:",
-    r"(?i)^(imaging|radiology)\s*:",
-    r"(?i)^(brief hospital course|hospital course)\s*:",
-    r"(?i)^(discharge medications|medications on discharge)\s*:",
-    r"(?i)^(discharge diagnosis|discharge diagnoses)\s*:",
-    r"(?i)^(discharge disposition)\s*:",
-    r"(?i)^(discharge condition)\s*:",
-    r"(?i)^(discharge instructions)\s*:",
-    r"(?i)^(followup instructions|follow-up|follow up)\s*:",
-    r"(?i)^(active issues|active problems)\s*:",
+    r"^(chief complaint|cc)\s*:",
+    r"^(history of present illness|hpi)\s*:",
+    r"^(past medical history|pmh|pmhx)\s*:",
+    r"^(past surgical history|psh)\s*:",
+    r"^(social history|sh)\s*:",
+    r"^(family history|fh|fhx)\s*:",
+    r"^(medications on admission|home medications|admission medications)\s*:",
+    r"^(allergies)\s*:",
+    r"^(physical exam|physical examination|pe)\s*:",
+    r"^(pertinent results|labs|laboratory)\s*:",
+    r"^(imaging|radiology)\s*:",
+    r"^(brief hospital course|hospital course)\s*:",
+    r"^(discharge medications|medications on discharge)\s*:",
+    r"^(discharge diagnosis|discharge diagnoses)\s*:",
+    r"^(discharge disposition)\s*:",
+    r"^(discharge condition)\s*:",
+    r"^(discharge instructions)\s*:",
+    r"^(followup instructions|follow-up|follow up)\s*:",
+    r"^(active issues|active problems)\s*:",
 ]
 
 # Compiled pattern for matching any section header
 _SECTION_RE = re.compile(
     "|".join(f"({p})" for p in DISCHARGE_SECTION_PATTERNS),
-    re.MULTILINE,
+    re.MULTILINE | re.IGNORECASE,
 )
 
 
