@@ -1,0 +1,67 @@
+## Task: {task_name}
+
+You are a clinical information extraction system. Extract all relevant entities from the clinical text below and classify each according to the schema.
+
+## Entity Types to Extract
+{entity_types}
+
+## Attribute Dimensions
+For each extracted entity, classify it on these dimensions:
+{attribute_dimensions}
+
+## Target Items
+These are the specific form items we are trying to fill. For each entity, suggest which target item(s) it maps to based on clinical meaning:
+{target_items}
+
+## Section Context
+This text is from the '{section_name}' section of a discharge summary.
+Use this context to inform assertion and temporality classification:
+- "Past Medical History" → conditions more likely historical
+- "Hospital Course", "Active Issues", "Active Problems" → conditions likely current
+- "Discharge Diagnoses" → conditions confirmed as active during hospitalization
+- "Discharge Medications", "Medications on Discharge" → medications confirmed as current
+- "Medications on Admission", "Home Medications" → consider as current if continued
+
+## Clinical Text
+```
+{text}
+```
+
+## Output Format
+Respond with a JSON object containing a "mentions" array. Each mention must have:
+- "text": exact text span from the note
+- "entity_type": one of the defined entity types
+- "attributes": dict mapping each attribute dimension to its classified label
+- "target_item_candidates": list of target item IDs this entity maps to
+- "context": 1-2 surrounding sentences for provenance
+- "confidence": float 0.0-1.0
+
+Important rules:
+1. Extract EVERY relevant mention, even if the same condition appears multiple times
+2. Capture assertion status carefully: look for negation cues ("no", "denies", "without", "negative for", "ruled out", "unlikely")
+3. Capture temporality carefully: "history of X" = historical, "admitted for X" = current
+4. Map to target items when confident; leave empty if unsure
+5. Include abbreviated mentions (MI, CHF, COPD, HTN, etc.)
+6. If no relevant entities exist, return {{"mentions": []}}
+
+Example output:
+{{
+  "mentions": [
+    {{
+      "text": "atrial fibrillation",
+      "entity_type": "disease",
+      "attributes": {{"assertion": "affirmed", "temporality": "current"}},
+      "target_item_candidates": ["I0300"],
+      "context": "Patient with persistent atrial fibrillation, rate controlled on metoprolol",
+      "confidence": 0.95
+    }},
+    {{
+      "text": "no evidence of pneumonia",
+      "entity_type": "disease",
+      "attributes": {{"assertion": "negated", "temporality": "current"}},
+      "target_item_candidates": [],
+      "context": "Chest X-ray showed no evidence of pneumonia or consolidation",
+      "confidence": 0.90
+    }}
+  ]
+}}

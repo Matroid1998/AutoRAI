@@ -1,0 +1,135 @@
+{
+  "O0110H1": {
+    "name": "IV Medications",
+    "keywords": [
+      "iv", "intravenous", "iv push", "iv drip",
+      "iv infusion", "ivpb", "iv piggyback",
+      "continuous infusion"
+    ],
+    "icd_patterns": []
+  },
+  "O0110H2": {
+    "name": "IV Vasoactive Medications",
+    "keywords": [
+      "vasopressor", "vasoactive",
+      "norepinephrine", "levophed",
+      "dopamine",
+      "dobutamine",
+      "epinephrine",
+      "vasopressin",
+      "phenylephrine", "neosynephrine",
+      "milrinone", "primacor",
+      "nitroglycerin drip", "nitroprusside",
+      "isoproterenol"
+    ],
+    "icd_patterns": []
+  },
+  "O0110H3": {
+    "name": "IV Antibiotics",
+    "keywords": [
+      "iv vancomycin", "iv ceftriaxone",
+      "iv piperacillin", "iv zosyn",
+      "iv meropenem", "iv cefepime",
+      "iv cefazolin", "iv ampicillin",
+      "iv metronidazole", "iv flagyl",
+      "iv ciprofloxacin", "iv levofloxacin",
+      "iv gentamicin", "iv tobramycin",
+      "iv linezolid", "iv daptomycin",
+      "iv aztreonam", "iv ertapenem"
+    ],
+    "icd_patterns": []
+  },
+  "O0110H4": {
+    "name": "IV Anticoagulant",
+    "keywords": [
+      "heparin drip", "heparin infusion", "heparin gtt",
+      "iv heparin",
+      "argatroban", "bivalirudin", "angiomax"
+    ],
+    "icd_patterns": []
+  },
+  "O0110H10": {
+    "name": "IV Other",
+    "keywords": [
+      "iv fluids", "normal saline", "ns",
+      "lactated ringers", "lr",
+      "dextrose", "d5w", "d5ns", "d10",
+      "tpn", "total parenteral nutrition"
+    ],
+    "icd_patterns": []
+  },
+  "O0110I1": {
+    "name": "Transfusions",
+    "keywords": [
+      "transfusion", "blood transfusion",
+      "prbc", "packed red blood cells",
+      "red blood cell transfusion",
+      "platelet transfusion", "platelets",
+      "ffp", "fresh frozen plasma",
+      "cryoprecipitate", "cryo",
+      "blood products",
+      "pheresis"
+    ],
+    "icd_patterns": [
+      "30233.*", "30243.*",
+      "30230.*", "30240.*",
+      "30233H1", "30233K1", "30233L1", "30233M1", "30233N1", "30233P1",
+      "30233R1", "30233T1"
+    ]
+  },
+  "O0110J1": {
+    "name": "Dialysis",
+    "keywords": [
+      "dialysis", "renal replacement therapy", "rrt",
+      "crrt", "cvvh", "cvvhd", "cvvhdf",
+      "sled", "sustained low efficiency dialysis"
+    ],
+    "icd_patterns": [
+      "5A1D.*", "5A1D00Z", "5A1D60Z", "5A1D70Z", "5A1D80Z", "5A1D90Z"
+    ]
+  },
+  "O0110J2": {
+    "name": "Hemodialysis",
+    "keywords": [
+      "hemodialysis", "hd",
+      "intermittent hemodialysis", "ihd"
+    ],
+    "icd_patterns": [
+      "5A1D70Z", "5A1D80Z", "5A1D90Z"
+    ]
+  },
+  "O0110J3": {
+    "name": "Peritoneal Dialysis",
+    "keywords": [
+      "peritoneal dialysis", "pd",
+      "capd", "ccpd",
+      "continuous ambulatory peritoneal dialysis",
+      "continuous cycling peritoneal dialysis"
+    ],
+    "icd_patterns": [
+      "3E1M39Z"
+    ]
+  },
+  "O0110G2": {
+    "name": "BiPAP",
+    "keywords": [
+      "bipap", "bi-pap", "bilevel",
+      "bilevel positive airway pressure",
+      "bpap", "nippv",
+      "non-invasive positive pressure ventilation",
+      "noninvasive ventilation"
+    ],
+    "icd_patterns": [
+      "5A09357", "5A09457", "5A09557"
+    ]
+  },
+  "O0110G3": {
+    "name": "CPAP",
+    "keywords": [
+      "cpap", "continuous positive airway pressure"
+    ],
+    "icd_patterns": [
+      "5A09357", "5A09457", "5A09557"
+    ]
+  }
+}

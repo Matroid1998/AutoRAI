@@ -1,0 +1,253 @@
+{
+  "N0415A1": {
+    "name": "Antipsychotic: Has received",
+    "keywords": [
+      "haloperidol", "haldol",
+      "quetiapine", "seroquel",
+      "olanzapine", "zyprexa",
+      "risperidone", "risperdal",
+      "aripiprazole", "abilify",
+      "ziprasidone", "geodon",
+      "chlorpromazine", "thorazine",
+      "fluphenazine", "prolixin",
+      "perphenazine",
+      "prochlorperazine", "compazine",
+      "clozapine", "clozaril",
+      "paliperidone", "invega",
+      "lurasidone", "latuda",
+      "brexpiprazole", "rexulti",
+      "pimozide"
+    ]
+  },
+  "N0415B1": {
+    "name": "Antianxiety: Has received",
+    "keywords": [
+      "lorazepam", "ativan",
+      "diazepam", "valium",
+      "alprazolam", "xanax",
+      "clonazepam", "klonopin",
+      "buspirone", "buspar",
+      "hydroxyzine", "vistaril", "atarax",
+      "chlordiazepoxide", "librium",
+      "oxazepam", "serax",
+      "midazolam", "versed"
+    ]
+  },
+  "N0415C1": {
+    "name": "Antidepressant: Has received",
+    "keywords": [
+      "sertraline", "zoloft",
+      "fluoxetine", "prozac",
+      "citalopram", "celexa",
+      "escitalopram", "lexapro",
+      "paroxetine", "paxil",
+      "venlafaxine", "effexor",
+      "duloxetine", "cymbalta",
+      "mirtazapine", "remeron",
+      "trazodone", "desyrel",
+      "bupropion", "wellbutrin",
+      "amitriptyline", "elavil",
+      "nortriptyline", "pamelor",
+      "doxepin", "sinequan",
+      "desvenlafaxine", "pristiq",
+      "vilazodone",
+      "vortioxetine"
+    ]
+  },
+  "N0415D1": {
+    "name": "Hypnotic: Has received",
+    "keywords": [
+      "zolpidem", "ambien",
+      "eszopiclone", "lunesta",
+      "zaleplon", "sonata",
+      "temazepam", "restoril",
+      "triazolam", "halcion",
+      "ramelteon", "rozerem",
+      "suvorexant", "belsomra",
+      "lemborexant"
+    ]
+  },
+  "N0415E1": {
+    "name": "Anticoagulant: Has received",
+    "keywords": [
+      "heparin",
+      "enoxaparin", "lovenox",
+      "warfarin", "coumadin", "jantoven",
+      "apixaban", "eliquis",
+      "rivaroxaban", "xarelto",
+      "dabigatran", "pradaxa",
+      "edoxaban", "savaysa",
+      "fondaparinux", "arixtra",
+      "argatroban",
+      "bivalirudin", "angiomax",
+      "dalteparin", "fragmin",
+      "tinzaparin"
+    ]
+  },
+  "N0415F1": {
+    "name": "Antibiotic: Has received",
+    "keywords": [
+      "vancomycin", "vancocin",
+      "ceftriaxone", "rocephin",
+      "piperacillin", "tazobactam", "zosyn",
+      "ciprofloxacin", "cipro",
+      "levofloxacin", "levaquin",
+      "metronidazole", "flagyl",
+      "azithromycin", "zithromax", "z-pack",
+      "amoxicillin", "augmentin",
+      "ampicillin", "unasyn",
+      "cefazolin", "ancef",
+      "cefepime", "maxipime",
+      "meropenem", "merrem",
+      "doxycycline", "vibramycin",
+      "trimethoprim", "sulfamethoxazole", "bactrim",
+      "clindamycin", "cleocin",
+      "gentamicin", "garamycin",
+      "tobramycin",
+      "cephalexin", "keflex",
+      "linezolid", "zyvox",
+      "daptomycin", "cubicin",
+      "ertapenem", "invanz",
+      "cefdinir",
+      "ceftazidime",
+      "aztreonam",
+      "nitrofurantoin", "macrobid",
+      "penicillin",
+      "nafcillin",
+      "oxacillin",
+      "cefoxitin",
+      "cefuroxime",
+      "amikacin",
+      "colistin",
+      "polymyxin",
+      "tigecycline",
+      "minocycline",
+      "rifampin"
+    ]
+  },
+  "N0415G1": {
+    "name": "Diuretic: Has received",
+    "keywords": [
+      "furosemide", "lasix",
+      "hydrochlorothiazide", "hctz", "microzide",
+      "spironolactone", "aldactone",
+      "bumetanide", "bumex",
+      "metolazone", "zaroxolyn",
+      "torsemide", "demadex",
+      "chlorthalidone", "thalitone",
+      "triamterene",
+      "amiloride",
+      "acetazolamide", "diamox",
+      "indapamide",
+      "ethacrynic acid",
+      "eplerenone", "inspra",
+      "mannitol"
+    ]
+  },
+  "N0415H1": {
+    "name": "Opioid: Has received",
+    "keywords": [
+      "morphine", "ms contin",
+      "oxycodone", "oxycontin", "percocet", "roxicodone",
+      "hydromorphone", "dilaudid",
+      "fentanyl", "duragesic", "sublimaze",
+      "hydrocodone", "vicodin", "norco",
+      "codeine",
+      "methadone", "dolophine",
+      "tramadol", "ultram",
+      "buprenorphine", "suboxone", "subutex",
+      "meperidine", "demerol",
+      "oxymorphone", "opana",
+      "tapentadol", "nucynta",
+      "nalbuphine", "nubain",
+      "butorphanol", "stadol",
+      "sufentanil",
+      "remifentanil"
+    ]
+  },
+  "N0415I1": {
+    "name": "Antiplatelet: Has received",
+    "keywords": [
+      "aspirin", "asa", "ecotrin", "bayer",
+      "clopidogrel", "plavix",
+      "ticagrelor", "brilinta",
+      "prasugrel", "effient",
+      "dipyridamole", "aggrenox", "persantine",
+      "ticlopidine", "ticlid",
+      "cangrelor",
+      "vorapaxar"
+    ]
+  },
+  "N0415J1": {
+    "name": "Hypoglycemic: Has received",
+    "keywords": [
+      "metformin", "glucophage",
+      "glipizide", "glucotrol",
+      "glyburide", "glynase", "diabeta", "micronase",
+      "glimepiride", "amaryl",
+      "sitagliptin", "januvia",
+      "saxagliptin", "onglyza",
+      "linagliptin", "tradjenta",
+      "empagliflozin", "jardiance",
+      "dapagliflozin", "farxiga",
+      "canagliflozin", "invokana",
+      "pioglitazone", "actos",
+      "rosiglitazone", "avandia",
+      "liraglutide", "victoza",
+      "semaglutide", "ozempic", "rybelsus",
+      "dulaglutide", "trulicity",
+      "exenatide", "byetta", "bydureon",
+      "acarbose", "precose",
+      "repaglinide", "prandin",
+      "nateglinide", "starlix"
+    ]
+  },
+  "N0415K1": {
+    "name": "Anticonvulsant: Has received",
+    "keywords": [
+      "levetiracetam", "keppra",
+      "phenytoin", "dilantin",
+      "valproic acid", "valproate", "depakote", "depakene",
+      "carbamazepine", "tegretol",
+      "lamotrigine", "lamictal",
+      "gabapentin", "neurontin",
+      "topiramate", "topamax",
+      "oxcarbazepine", "trileptal",
+      "lacosamide", "vimpat",
+      "zonisamide", "zonegran",
+      "pregabalin", "lyrica",
+      "phenobarbital", "luminal",
+      "primidone", "mysoline",
+      "ethosuximide", "zarontin",
+      "clobazam", "onfi",
+      "brivaracetam", "briviact",
+      "rufinamide", "banzel",
+      "felbamate", "felbatol",
+      "vigabatrin", "sabril",
+      "eslicarbazepine", "aptiom",
+      "tiagabine", "gabitril",
+      "perampanel", "fycompa"
+    ]
+  },
+  "N0350A": {
+    "name": "Insulin Injections",
+    "keywords": [
+      "insulin", "insulin lispro", "humalog",
+      "insulin aspart", "novolog",
+      "insulin glulisine", "apidra",
+      "insulin regular", "humulin r", "novolin r",
+      "insulin nph", "humulin n", "novolin n",
+      "insulin glargine", "lantus", "basaglar", "toujeo",
+      "insulin detemir", "levemir",
+      "insulin degludec", "tresiba",
+      "insulin 70/30", "insulin mix"
+    ]
+  },
+  "N0350B": {
+    "name": "Orders for Insulin",
+    "keywords": [
+      "insulin", "insulin sliding scale", "insulin drip",
+      "insulin infusion", "insulin protocol"
+    ]
+  }
+}

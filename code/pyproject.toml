@@ -1,0 +1,13 @@
+[project]
+name = "autorai"
+version = "0.1.0"
+description = "Automated form completion from unstructured and structured data with specification-grounded extraction"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas>=2.0",
+    "openai>=1.0",
+]
+
+[project.scripts]
+run-ie = "run_ie:main"
